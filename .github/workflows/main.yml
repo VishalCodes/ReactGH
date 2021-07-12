@@ -23,5 +23,5 @@ jobs:
         # ${{ secrets.EMAIL_GITHUB }}
         git config --global user.name "VishalCodes"
         # ${{ secrets.UNAME_GITHUB }}
-        git remote set-url origin https://${{ secrets.PAT_GITHUB }}@github.com/${{ secrets.UNAME_GITHUB }}/ReactGH.git
+        git remote set-url origin https://${{ secrets.PAT_GITHUB }}@github.com/VishalCodes/ReactGH.git
         npm run deploy
